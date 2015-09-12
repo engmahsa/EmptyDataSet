@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  FirstTableViewController.h
 //  DemoEmptyView
 //
 //  Created by Mahsa on 6/15/15.
@@ -7,11 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "EmptyTableViewController.h"
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
-
-@property (strong, nonatomic) UIWindow *window;
-
+@interface FirstTableViewController : EmptyTableViewController
 
 @end
-
